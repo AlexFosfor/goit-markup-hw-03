@@ -13,6 +13,26 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  padding-left: 0;
+  margin: 0;
+}
 /* Logo web */
 .header-logo-web {
   color: var(--accent-color);
@@ -76,18 +96,21 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 /* Home page section 1 */
 .section-hero {
   background-color: var(--title-text-color);
+  text-align: center;
 }
 .section-title-text {
   color: var(--section-title-text-color);
-  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  padding-top: 188px;
 }
 /* button order */
 .button-order {
@@ -102,6 +125,7 @@ body {
   border: none;
   padding: 16px 32px;
   border-radius: 4px;
+  margin-bottom: 188px;
 }
 .button-order:is(:hover, :focus) {
   background-color: var(--hover-color);
@@ -114,6 +138,7 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+  width: 264px;
 }
 /* Home page section 3 */
 .section-title-p {
@@ -158,18 +183,20 @@ body {
   color: var(--section-title-text-color);
   background-color: var(--hover-color);
 }
-/* header box */
-html {
-  box-sizing: border-box;
+/* header container */
+.header-container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
-*,
-*::before *::after {
-  box-sizing: inherit;
+/* container */
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
-.header-box {
-  background-color: var(--primary-text-color);
-  margin-left: auto;
-  margin-right: auto;
-  width: 1140px;
-  height: 72px;
+.test {
+  outline: 2px solid tomato;
 }
