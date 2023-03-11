@@ -33,6 +33,19 @@ ul {
   padding-left: 0;
   margin: 0;
 }
+/* header */
+.header-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+}
 /* Logo web */
 .header-logo-web {
   color: var(--accent-color);
@@ -42,6 +55,10 @@ ul {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-left: 156px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* logo studio */
 .header-logo-studio {
@@ -52,6 +69,11 @@ ul {
 }
 .contacts-link:is(:hover, :focus) {
   color: var(--hover-color);
+}
+.contacts-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* button */
 .button-title-text {
@@ -73,8 +95,21 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
+.auth-nav {
+  display: flex;
+  margin-left: 332px;
+}
+
+.auth-nav .contacts-li + .contacts-li {
+  margin-left: 40px;
+}
+/* contacts */
 .address {
   font-style: normal;
+}
+.text-contacts-li + .text-contacts-li {
+  padding-left: 40px;
+  align-items: center;
 }
 /* text none */
 .list {
@@ -90,6 +125,14 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
+.site-nav {
+  display: flex;
+  margin-left: 76px;
+}
+.site-nav .header-item + .header-item {
+  margin-left: 40px;
+  align-items: center;
+}
 .section-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -97,6 +140,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  margin-left: 24px;
 }
 /* Home page section 1 */
 .section-hero {
@@ -131,6 +175,7 @@ ul {
   background-color: var(--hover-color);
 }
 /* Home page section 2 */
+
 .section-title-hidden {
   visibility: hidden;
 }
@@ -139,6 +184,13 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   width: 264px;
+  margin-left: 24px;
+}
+.strategy-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+  margin-top: 100px;
 }
 /* Home page section 3 */
 .section-title-p {
@@ -149,8 +201,52 @@ ul {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+.work-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.work-li + .work-li {
+  margin-left: 24px;
 }
 /* Home page section 4 */
+.section-title-ps4 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+.section-title-p4 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.our-team-item {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+.our-photo + .our-photo {
+  margin-left: 24px;
+}
+.text-p4 {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
 .section-team {
   background-color: var(--text-logo-footer-color);
 }
@@ -159,11 +255,29 @@ ul {
 .footer {
   background-color: var(--title-text-color);
 }
+/* Logo */
 .logo-studio-footer {
   color: var(--text-logo-footer-color);
 }
+.logo-web-footer {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-left: 156px;
+  display: block;
+  padding-bottom: 16px;
+  padding-top: 100px;
+}
 .footer-title {
   color: var(--footer-title-text-color);
+  width: 264px;
+  height: 72px;
+  margin-left: 156px;
+  padding-bottom: 100px;
 }
 /* button filtr */
 .button-filtr {
@@ -183,19 +297,49 @@ ul {
   color: var(--section-title-text-color);
   background-color: var(--hover-color);
 }
-/* header container */
-.header-container {
-  width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
 /* container */
 .container {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+/* Portfolio */
+.filtr {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.filtr-li + .filtr-li {
+  margin-left: 24px;
+}
+/* list of works */
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.works-photo + .works-photo {
+  margin-left: 24px;
+}
+.section-title-footer {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.text-p-footer {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 16px;
+  margin-bottom: 80px;
 }
 .test {
   outline: 2px solid tomato;

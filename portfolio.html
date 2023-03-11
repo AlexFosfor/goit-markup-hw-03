@@ -22,7 +22,7 @@
   </head>
   <!-- Page header -->
   <body class="body" id="body">
-    <header class="header">
+    <header class="header-nav">
       <nav class="header-nav">
         <a href="./index.html" class="header-logo-web link"
           >WEB<span class="header-logo-studio link">Studio</span></a
@@ -44,12 +44,12 @@
       <!-- Contacts -->
       <address class="address">
         <ul class="auth-nav list">
-          <li class="text-contacts-email">
+          <li class="text-contacts-li">
             <a class="contacts-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="text-contacts-tel">
+          <li class="text-contacts-li">
             <a class="contacts-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
@@ -62,121 +62,137 @@
       <section class="section-portfolio">
         <h1 class="section-title-hidden">Portfolio</h1>
         <!-- Filtr -->
-        <ul class="list">
-          <li><button type="button" class="button-filtr">All</button></li>
-          <li><button type="button" class="button-filtr">Web Site</button></li>
-          <li><button type="button" class="button-filtr">App</button></li>
-          <li><button type="button" class="button-filtr">Design</button></li>
-          <li><button type="button" class="button-filtr">Marketing</button></li>
-        </ul>
+        <div class="container test">
+          <ul class="filtr list">
+            <li class="filtr-li">
+              <button type="button" class="button-filtr">All</button>
+            </li>
+            <li class="filtr-li">
+              <button type="button" class="button-filtr">Web Site</button>
+            </li>
+            <li class="filtr-li">
+              <button type="button" class="button-filtr">App</button>
+            </li>
+            <li class="filtr-li">
+              <button type="button" class="button-filtr">Design</button>
+            </li>
+            <li class="filtr-li">
+              <button type="button" class="button-filtr">Marketing</button>
+            </li>
+          </ul>
+        </div>
 
         <!-- list of works -->
-        <ul class="list">
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Banking_App_Interface_Concept.jpg"
-                alt="app"
-                width="360"
-              />
-              <h2 class="section-title">Banking App Interface Concept</h2>
-              <p class="text-p">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Cashless_Payment.jpg"
-                alt="Marketing"
-                width="360"
-              />
-              <h2 class="section-title">Cashless Payment</h2>
-              <p class="text-p">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Meditaion_App.jpg"
-                alt="Meditaion App"
-                width="360"
-              />
-              <h2 class="section-title">Meditation App</h2>
-              <p class="text-p">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Taxi_Service.jpg"
-                alt="Taxi Service"
-                width="360"
-              />
-              <h2 class="section-title">Taxi Service</h2>
-              <p class="text-p">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Screen_Illustrations.jpg"
-                alt="Screen Illustrations"
-                width="360"
-              />
-              <h2 class="section-title">Screen Illustrations</h2>
-              <p class="text-p">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Online_Courses.jpg"
-                alt="Online Courses"
-                width="360"
-              />
-              <h2 class="section-title">Online Courses</h2>
-              <p class="text-p">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Instagram_Stories_Concept.jpg"
-                alt="Instagram Stories Concept"
-                width="360"
-              />
-              <h2 class="section-title">Instagram Stories Concept</h2>
-              <p class="text-p">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Organic_Food.jpg"
-                alt="Organic_Food"
-                width="360"
-              />
-              <h2 class="section-title">Organic Food</h2>
-              <p class="text-p">Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/Fresh_Coffee.jpg"
-                alt="Fresh Coffee"
-                width="360"
-              />
-              <h2 class="section-title">Fresh Coffee</h2>
-              <p class="text-p">Web Site</p>
-            </a>
-          </li>
-        </ul>
+        <div class="container test">
+          <ul class="works-list list">
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Banking_App_Interface_Concept.jpg"
+                  alt="app"
+                  width="360"
+                />
+                <h2 class="section-title-footer">
+                  Banking App Interface Concept
+                </h2>
+                <p class="text-p-footer">App</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Cashless_Payment.jpg"
+                  alt="Marketing"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Cashless Payment</h2>
+                <p class="text-p-footer">Marketing</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Meditaion_App.jpg"
+                  alt="Meditaion App"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Meditation App</h2>
+                <p class="text-p-footer">App</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Taxi_Service.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Taxi Service</h2>
+                <p class="text-p-footer">Marketing</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Screen_Illustrations.jpg"
+                  alt="Screen Illustrations"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Screen Illustrations</h2>
+                <p class="text-p-footer">Design</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Online_Courses.jpg"
+                  alt="Online Courses"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Online Courses</h2>
+                <p class="text-p-footer">Marketing</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Instagram_Stories_Concept.jpg"
+                  alt="Instagram Stories Concept"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Instagram Stories Concept</h2>
+                <p class="text-p-footer">Design</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Organic_Food.jpg"
+                  alt="Organic_Food"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Organic Food</h2>
+                <p class="text-p-footer">Web Site</p>
+              </a>
+            </li>
+            <li class="works-photo">
+              <a class="link" href=""
+                ><img
+                  src="./images/Fresh_Coffee.jpg"
+                  alt="Fresh Coffee"
+                  width="360"
+                />
+                <h2 class="section-title-footer">Fresh Coffee</h2>
+                <p class="text-p-footer">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a href="./index.html" class="header-logo-web link"
+      <a href="./index.html" class="logo-web-footer link"
         >WEB<span class="logo-studio-footer">Studio</span></a
       >
 
