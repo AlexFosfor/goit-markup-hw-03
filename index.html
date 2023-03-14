@@ -22,81 +22,86 @@
   </head>
   <!-- Page header -->
   <body class="body" id="body">
-    <header class="header-nav">
-      <nav class="nav-item">
-        <a href="./index.html" class="header-logo-web link"
-          >WEB<span class="header-logo-studio link">Studio</span></a
-        >
+    <div class="container test">
+      <header class="header-nav">
+        <nav class="nav-box">
+          <a href="./index.html" class="header-logo-web link"
+            >WEB<span class="header-logo-studio link">Studio</span></a
+          >
 
-        <!-- Navigation to other pages -->
-        <ul class="site-nav list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+          <!-- Navigation to other pages -->
+          <ul class="site-nav list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <!-- Contacts -->
+        <!-- Contacts -->
 
-      <address class="address">
-        <ul class="auth-nav list">
-          <li class="text-contacts-li">
-            <a class="contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="text-contacts-li">
-            <a class="contacts-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
+        <address class="address">
+          <ul class="auth-nav list">
+            <li class="text-contacts-li">
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="text-contacts-li">
+              <a class="contacts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </header>
+    </div>
     <!-- Home page section 1 -->
     <main>
       <section class="section-hero">
-        <h1 class="section-title-text">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button type="button" class="button-order">Order Service</button>
+        <div class="container test">
+          <h1 class="section-title-text">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="button-order">Order Service</button>
+        </div>
       </section>
       <!-- Home page section 2 -->
+
       <section class="section-strategy">
-        <h2 class="section-title-hidden">Strategy</h2>
-        <div class="container">
+        <div class="container test">
+          <h2 class="visually-hidden">Strategy</h2>
+
           <ul class="strategy-list list">
-            <li>
+            <li class="text-p">
               <h3 class="section-title">Strategy</h3>
-              <p class="text-p">
+              <p>
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="text-p">
               <h3 class="section-title">Punctuality</h3>
-              <p class="text-p">
+              <p>
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="text-p">
               <h3 class="section-title">Diligence</h3>
-              <p class="text-p">
+              <p>
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="text-p">
               <h3 class="section-title">Technologies</h3>
-              <p class="text-p">
+              <p>
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -107,7 +112,7 @@
       <!-- Home page section 3 -->
 
       <section>
-        <div class="container">
+        <div class="container test">
           <h2 class="section-title-p">What are we doing</h2>
           <ul class="work-list list">
             <li class="work-li">
@@ -126,7 +131,7 @@
       <!-- Home page section 4 -->
 
       <section class="section-team">
-        <div class="container">
+        <div class="container test">
           <h2 class="section-title-ps4">Our Team</h2>
           <ul class="our-team-item list">
             <li class="our-photo">
@@ -136,12 +141,12 @@
                 width="264"
               />
               <h3 class="section-title-p4">Mark Guerrero</h3>
-              <p class="text-p4">Product Designer</p>
+              <p>Product Designer</p>
             </li>
             <li class="our-photo">
               <img src="./images/Tom_Ford.jpg" alt="Tom_Ford" width="264" />
               <h3 class="section-title-p4">Tom Ford</h3>
-              <p class="text-p4">Frontend Developer</p>
+              <p>Frontend Developer</p>
             </li>
             <li class="our-photo">
               <img
@@ -150,7 +155,7 @@
                 width="264"
               />
               <h3 class="section-title-p4">Camila Garcia</h3>
-              <p class="text-p4">Marketing</p>
+              <p>Marketing</p>
             </li>
             <li class="our-photo">
               <img
@@ -159,22 +164,25 @@
                 width="264"
               />
               <h3 class="section-title-p4">Daniel Wilson</h3>
-              <p class="text-p4">UI Designer</p>
+              <p>UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
-      <a href="./index.html" class="logo-web-footer link"
-        >WEB<span class="logo-studio-footer">Studio</span></a
-      >
 
-      <p class="footer-title">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="footer">
+      <div class="container test">
+        <a href="./index.html" class="logo-web-footer link"
+          >WEB<span class="logo-studio-footer">Studio</span></a
+        >
+
+        <p class="footer-title">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

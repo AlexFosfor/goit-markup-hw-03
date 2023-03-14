@@ -22,46 +22,50 @@
   </head>
   <!-- Page header -->
   <body class="body" id="body">
-    <header class="header-nav">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo-web link"
-          >WEB<span class="header-logo-studio link">Studio</span></a
-        >
+    <div class="container test">
+      <header class="header-nav">
+        <nav class="nav-box">
+          <a href="./index.html" class="header-logo-web link"
+            >WEB<span class="header-logo-studio link">Studio</span></a
+          >
 
-        <!-- Navigation to other pages -->
-        <ul class="site-nav list">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <!-- Contacts -->
-      <address class="address">
-        <ul class="auth-nav list">
-          <li class="text-contacts-li">
-            <a class="contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="text-contacts-li">
-            <a class="contacts-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
+          <!-- Navigation to other pages -->
+          <ul class="site-nav list">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Contacts -->
+
+        <address class="address">
+          <ul class="auth-nav list">
+            <li class="text-contacts-li">
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="text-contacts-li">
+              <a class="contacts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </header>
+    </div>
     <!-- Home page -->
     <main>
-      <section class="section-portfolio">
-        <h1 class="section-title-hidden">Portfolio</h1>
-        <!-- Filtr -->
+      <h1 class="visually-hidden">Portfolio</h1>
+      <!-- Filtr -->
+      <section class="section-filtr">
         <div class="container test">
           <ul class="filtr list">
             <li class="filtr-li">
@@ -81,8 +85,10 @@
             </li>
           </ul>
         </div>
+      </section>
 
-        <!-- list of works -->
+      <!-- list of works -->
+      <section class="no-padding section-list-work">
         <div class="container test">
           <ul class="works-list list">
             <li class="works-photo">
@@ -192,14 +198,16 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a href="./index.html" class="logo-web-footer link"
-        >WEB<span class="logo-studio-footer">Studio</span></a
-      >
+      <div class="container test">
+        <a href="./index.html" class="logo-web-footer link"
+          >WEB<span class="logo-studio-footer">Studio</span></a
+        >
 
-      <p class="footer-title">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+        <p class="footer-title">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
