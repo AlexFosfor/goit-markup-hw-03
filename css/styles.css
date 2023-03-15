@@ -142,12 +142,13 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 /* Home page section 1 */
 
-.hero-box {
+.section-hero {
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 .section-hero {
   background-color: var(--title-text-color);
@@ -208,11 +209,6 @@ img {
   line-height: 1.5;
 }
 .strategy-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
   width: 264px;
 }
 
@@ -246,10 +242,7 @@ img {
 /* Home page section 4 */
 
 .our-team-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  text-align: center;
   padding: 32px 16px;
 }
 .our-team-item {
@@ -306,6 +299,11 @@ img {
   margin: 0 auto;
 }
 /* Portfolio */
+
+.section-filtr {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
 .button-filtr {
   color: var(--accent-color);
   background-color: var(--text-logo-footer-color);
@@ -318,7 +316,7 @@ img {
   letter-spacing: 0.04em;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--footer-title-text-color);
 }
 .button-filtr:is(:hover, :focus) {
   color: var(--section-title-text-color);
@@ -327,8 +325,6 @@ img {
 .filtr {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
 }
 
 .filtr-li + .filtr-li {
@@ -343,8 +339,7 @@ img {
   margin-right: 24px;
   margin-bottom: 48px;
   width: 360px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+  background-color: var(--section-title-text-color);
 }
 .works-photo:nth-child(3n) {
   margin-right: 0;
@@ -353,12 +348,9 @@ img {
   margin-bottom: 0;
 }
 .work-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  border: 1px solid var(--footer-title-text-color);
+  border-top: none;
   padding: 0px 16px;
-  gap: 8px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
