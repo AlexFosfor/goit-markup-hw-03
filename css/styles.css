@@ -263,6 +263,7 @@ img {
 .section-team {
   background-color: var(--text-logo-footer-color);
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 /* footer */
@@ -300,10 +301,6 @@ img {
 }
 /* Portfolio */
 
-.section-filtr {
-  margin-top: 96px;
-  margin-bottom: 72px;
-}
 .button-filtr {
   color: var(--accent-color);
   background-color: var(--text-logo-footer-color);
@@ -325,6 +322,8 @@ img {
 .filtr {
   display: flex;
   justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .filtr-li + .filtr-li {
