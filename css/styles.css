@@ -326,8 +326,7 @@ img {
   justify-content: center;
 }
 .filtr-item {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .filtr-li + .filtr-li {
@@ -366,5 +365,6 @@ img {
   padding-bottom: 0;
 }
 .section-list-work {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
