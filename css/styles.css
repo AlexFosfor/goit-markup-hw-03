@@ -153,17 +153,6 @@ img {
 .section-hero {
   background-color: var(--title-text-color);
   text-align: center;
-  background-size: cover;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(/images/people-office.jpg);
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
 }
 .hero-title-text {
   color: var(--section-title-text-color);
